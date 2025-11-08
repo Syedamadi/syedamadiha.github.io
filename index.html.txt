@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syeda Madiha | Bioinformatics Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Syeda Madiha</h1>
+    <p>Meticulous and analytical student experienced in in-silico drug discovery pipeline, NGS, AI-ML, molecular biology techniques, and data analysis/visualization using Python and R.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a bioinformatics enthusiast passionate about combining biology and data science to solve molecular problems. My work spans NGS analysis, AI-ML, drug discovery, and genomics.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical & Laboratory Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-box">
+        <h3>Computational Skills</h3>
+        <ul>
+          <li>R, Python, Jupyter Notebook, Google Colab</li>
+          <li>Bash Scripting, Command Line</li>
+          <li>Multi-omics, Metagenomics, NGS Analysis, Single Cell Analysis</li>
+          <li>Genomic Databases and Tools, CADD, Galaxy</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Molecular Biology Skills</h3>
+        <ul>
+          <li>PCR, Gel Electrophoresis, SDS-PAGE, ELISA</li>
+          <li>DNA, RNA & Plasmid Extraction</li>
+          <li>Media Preparation, Instrument Handling, Culture Techniques</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Chemistry & Instrumentation</h3>
+        <ul>
+          <li>Spectrophotometry, Chromatography (HPLC, TLC)</li>
+          <li>NMR Spectroscopy, Sample Preparation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="project-card">
+      <img src="images/project1.png" alt="Project 1 Image">
+      <div class="project-content">
+        <h3>Phycocyanin Pathway Reconstruction in <i>Spirulina</i></h3>
+        <p>Reconstructed and analyzed the phycocyanin biosynthesis pathway using genome annotation, BLAST, and KEGG mapping.</p>
+        <p><strong>Tools:</strong> BLAST, KEGG Mapper, STRING, Cytoscape</p>
+        <p><strong>Results:</strong> Identified key enzymes and pathway topology conserved across cyanobacteria.</p>
+        <a href="#" class="btn">View Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project2.png" alt="Project 2 Image">
+      <div class="project-content">
+        <h3>Host–Pathogen Interaction in Monkeypox Virus</h3>
+        <p>Predicted host–pathogen PPI networks to identify potential viral drug targets and screened natural compounds via ADMET analysis.</p>
+        <p><strong>Tools:</strong> STRING, Cytoscape, pkCSM, SwissDock</p>
+        <p><strong>Results:</strong> Proposed natural lead compounds targeting E9L and F13L proteins with favorable ADMET profiles.</p>
+        <a href="#" class="btn">View Notebook</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project3.png" alt="Project 3 Image">
+      <div class="project-content">
+        <h3>ML-based TP53 Mutation Classification</h3>
+        <p>Built ML models to classify TP53 mutant vs. wild-type profiles using transcriptomic datasets and AutoML frameworks.</p>
+        <p><strong>Tools:</strong> Orange3, Google AutoML, Scikit-learn</p>
+        <p><strong>Results:</strong> Achieved 92% accuracy in mutation classification using expression-based features.</p>
+        <a href="#" class="btn">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:syedamadihasyeda7676@gmail.com">syedamadihasyeda7676@gmail.com</a></p>
+    <p>🔗 <a href="https://github.com/Syedamadi/syedamadiha.github.io" target="_blank">GitHub</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/syeda-madiha" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Syeda Madiha | Designed with 💚 in Bioinformatics</p>
+  </footer>
+</body>
+</html>
